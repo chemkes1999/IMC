@@ -3,7 +3,7 @@
 int main() {
     double peso, altura;
     std::cout << "BIENVENIDO";
-    std::cout << "Ingrese su peso en kilogramos: ";
+    std::cout << "Ingrese su peso en kilogramos: " << std::endl;
     std::cin >> peso;
 
     std::cout << "Ingrese su altura en metros: ";
