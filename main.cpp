@@ -2,16 +2,15 @@
 
 int main() {
     double peso, altura;
-
-    std::cout << "Ingrese su peso en kilogramos: ";
+    std::cout << "BIENVENIDO";
+    std::cout << "Ingrese su peso en kilogramos: " << std::endl;
     std::cin >> peso;
 
     std::cout << "Ingrese su altura en metros: ";
     std::cin >> altura;
 
     double imc = peso / (altura * altura);
-
-    std::cout << "Su IMC es: " << imc << std::endl;
+    std::cout << "Su Indice de Masa Corporal es: " << imc << std::endl;
 
     if (imc < 18.5) {
         std::cout << "Tiene peso bajo." << std::endl;
